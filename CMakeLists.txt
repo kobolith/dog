@@ -9,7 +9,11 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 include(CTest)
 enable_testing()
 
+<<<<<<< HEAD
 add_executable(dog dog.cxx)
+=======
+add_executable(dog dog.C)
+>>>>>>> ddbae3c3f6c8a716f51c2eec33f04b03668fc76c
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
